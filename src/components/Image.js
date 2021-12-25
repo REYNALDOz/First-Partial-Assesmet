@@ -9,6 +9,7 @@ export const Image = ({ title, url }) => {
                     <img src={url} alt={title} />
                 </div>
                 <p>{title}</p>
+                <button className='buttonDetail'>Go To Detail</button>
             </div>
         </div>
     )

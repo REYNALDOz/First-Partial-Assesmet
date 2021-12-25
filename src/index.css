@@ -32,6 +32,21 @@ code {
   flex-wrap: wrap;
 }
 
+.buttonDetail{
+  background-color: darkslateblue;
+  color: white;
+  text-align: left;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  float: right;
+
+}
+
 .container{
   cursor: pointer;
   box-shadow: 0 0 5px 0;
@@ -41,12 +56,10 @@ code {
   align-content: center;
   border: 1px solid grey;
   border-radius: 6px;
-  margin-right: 10px;
-  margin-bottom: 10px;
   overflow: hidden;
   display: grid;
   width: 30%;
-  height: 30%;
+  height: 40%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
@@ -75,14 +88,14 @@ code {
 
 @media screen and (min-width:590px){
 
-  .card img{
-    grid-template-columns: repeat(3,1fr);
+  .image{
+    grid-template-columns: repeat(2,1fr);
   }
 }
 
 @media screen and (min-width:960px){
 
-  .card .image{
-    grid-template-columns: repeat(4,1fr);
+  .image{
+    grid-template-columns: repeat(3,1fr);
   }
 }
